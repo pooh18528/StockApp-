@@ -1,40 +1,10 @@
-# CEF runtime
-libcef.dll
-libEGL.dll
-libGLESv2.dll
-chrome_elf.dll
-d3dcompiler_43.dll
-d3dcompiler_47.dll
-widevinecdmadapter.dll
-cef.pak
-cef_100_percent.pak
-cef_200_percent.pak
-cef_extensions.pak
-devtools_resources.pak
-icudtl.dat
-natives_blob.bin
-snapshot_blob.bin
-license.txt
-
-# PHP runtime
-php/*.dll
-php/php.exe
-php/php-cgi.exe
-php/php-win.exe
-php/ext/
-php/lib/
-php/sasl2/
-
-# Locales
-locales/
+# Temp / build output
+php/tmp/
+www/uploads/
+www/temp/
 
 # Cache
 webcache/
-php/tmp/
-
-# Uploads
-www/uploads/
-www/temp/
 
 # OS files
 Thumbs.db
@@ -49,3 +19,6 @@ debug.log
 # IDE
 .vscode/
 .idea/
+
+# Git
+*.orig
